@@ -7,8 +7,7 @@ export default {
     extend: {
 
       fontFamily: {
-        'hanken': ['Hanken Grotesk'],
-        'Kumbh': ['Kumbh Sans'],
+        'inter': ['Inter'],
       },
       colors: {
         MODAL_BACKGROUND: "rgba(0, 0, 0, 0.23)",
