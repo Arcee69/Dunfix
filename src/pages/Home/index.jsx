@@ -51,18 +51,18 @@ const Home = () => {
     <>
         <div
             style={{ backgroundImage: `url(${HomeBg})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}  
-            className='w-full h-[600px] ' 
+            className='w-full h-[600px]' 
         >
             <div 
                 style={{
                     backgroundColor: "rgba(255, 255, 255, 0.40)",
-                    position: "absolute",
+                    position: "relative",
                     top: 0,
                     left: 0,
                     bottom: 0,
                     right: 0,
                 }}
-                className='flex flex-col px-[65px] pt-[188px]'
+                className='flex flex-col px-[65px] py-[90px]'
             >
                 <div className='w-[1053px]  flex flex-col gap-[23px]'>
                     <p className='font-medium font-inter text-[70px] text-[#34364D]'>Your trusted partner in procurement and distribution</p>
