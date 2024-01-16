@@ -1,5 +1,8 @@
 import React from 'react'
+import { RxLightningBolt } from "react-icons/rx";
+
 import AboutBg from "../../assets/img/about.png"
+import Estimate from "../../assets/img/estimate.png"
 import Left from "../../assets/img/left.png"
 import Right from "../../assets/img/right.png"
 import Intro from "../../assets/img/introduction.png"
@@ -66,6 +69,25 @@ const About = () => {
                     </p>
                 </div>
                 <img src={Mission} className='w-[502px]' />
+            </div>
+        </div>
+        <div
+            style={{ backgroundImage: `url(${Estimate})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}
+            className='w-full h-[321px]  py-[56px]' 
+        >
+            <div className='flex flex-col items-center justify-center '>
+                <p className='text-[#000] text-[64px] font-semibold '>Get Your Procurement Estimate Today</p>
+                <div className='flex justify-between mt-[48px]'>
+                    <input 
+                        placeholder='Enter your Email'
+                        type='email'
+                        name='email'
+                        className='bg-[#fff] outline-none rounded-l-lg w-[167px] h-[48px] py-[13px] px-[16px] h-[45px]'
+                    />
+                    <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[45px] rounded-r-lg justify-center text-[#fff]'>
+                        <RxLightningBolt /> Get estimate
+                    </button>
+                </div>
             </div>
         </div>
     </>
