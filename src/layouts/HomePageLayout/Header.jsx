@@ -12,7 +12,7 @@ const Header = () => {
         <div className='flex items-center gap-[45px]'>
            <Link to="/" className='text-[#050505] cursor-pointer text-base'>Home</Link>
            <Link to="/about" className='text-[#050505] cursor-pointer  text-base'>About us</Link>
-           <Link to="#" className='text-[#050505] cursor-pointer  text-base'>Services</Link>
+           <Link to="/services" className='text-[#050505] cursor-pointer  text-base'>Services</Link>
            <Link to="/contact" className='text-[#050505] cursor-pointer  text-base'>Contact Us</Link>
         </div>
         <div className='flex items-center gap-4 w-[320px]'>
