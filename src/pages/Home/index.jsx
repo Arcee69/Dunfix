@@ -196,11 +196,15 @@ const Home = () => {
             <div className='flex justify-center gap-[12px] mt-[28px]'>
                 <button
                     className='rounded-[6px] bg-[#000] w-[128px] h-[64px] p-2 text-[#fff] flex items-center justify-center'
+                    onClick={() => navigate("/services")}
                 >
-                    Get a battery
+                    Services
                 </button>
-                <button className='rounded-[6px] border border-[#000] w-[176px] h-[64px] p-1 flex items-center justify-center'>
-                    Learn about batteries
+                <button 
+                    className='rounded-[6px] border border-[#000] w-[176px] h-[64px] p-1 flex items-center justify-center'
+                    onClick={() => navigate("/contact")}
+                >
+                    Contact Us
                 </button>
             </div>
         </div>

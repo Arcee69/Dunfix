@@ -28,7 +28,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='w-[1196px] shadow-xl mx-auto h-[667px] gap-[55px] mb-[40px] rounded-[14px] flex p-[10px] mt-[149px]'>
-          <div className='w-[491px] h-[647px] flex flex-col gap-[116px] bg-[#109E92] rounded-tr-md rounded-tl-md rounded-bl-md pl-[40px] pt-[40px] pb-[36px]'>
+          <div className='w-[491px] h-[647px] flex flex-col gap-[100px] bg-[#109E92] rounded-tr-md rounded-tl-md rounded-bl-md pl-[40px] pt-[40px] pb-[36px]'>
             <div className='flex flex-col gap-[14px]'>
               <p className='text-[#fff] font-inter text-[28px]'>Contact Information</p>
               <p className='text-[#fff] font-inter text-[18px] font-medium'>Say something to start a live chat!</p>
@@ -36,15 +36,22 @@ const Contact = () => {
             <div className='flex flex-col gap-[55px]'>
               <div className='flex items-center gap-[25px]'>
                 <FaPhoneVolume className='text-[#fff] w-[24px] h-[24px]' />
-                <p className='text-[#fff] font-inter text-base'>+1012 3456 789</p>
+                <div className='flex flex-col'>
+                  <p className='text-[#fff] font-inter text-base'>+447762293319</p>
+                  <p className='text-[#fff] font-inter text-base'>+2348063351368</p>
+
+                </div>
               </div>
               <div className='flex items-center gap-[25px]'>
                 <MdEmail className='text-[#fff] w-[24px] h-[24px]' />
-                <p className='text-[#fff] font-inter text-base'>demo@gmail.com</p>
+                <p className='text-[#fff] font-inter text-base'>Dunfixenterprises@gmail.com</p>
               </div>
               <div className='flex items-center gap-[25px]'>
                 <MdLocationPin className='text-[#fff] w-[24px] h-[24px]' />
-                <p className='text-[#fff] font-inter text-base w-[288px]'>132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
+                <div className='flex flex-col gap-1.5'>
+                  <p className='text-[#fff] font-inter text-base w-[288px]'>20 St. Mary Street, Ogo-Oluwa b/stop, Ishashi, Lagos State</p>
+                  <p className='text-[#fff] font-inter text-base w-[288px]'>2 Crossby Court, Sunderland, SR2 8BX</p>
+                </div>
               </div>
             </div>
             <div className='flex relative'>
@@ -53,7 +60,7 @@ const Contact = () => {
                   <img src={Instagram} alt='instagram' />
                   <img src={Discord} alt='discord' />
                 </div>
-              <img src={Big} alt='' className='w-40 h-40 left-[64.5%] -bottom-[180%] absolute' />
+              <img src={Big} alt='' className='w-40 h-40 left-[64.5%] -bottom-[30%] absolute' />
             </div>
           </div>
           <div className='w-[600px] mt-[50px]'>
