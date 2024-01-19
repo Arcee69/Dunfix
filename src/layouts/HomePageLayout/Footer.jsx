@@ -34,9 +34,9 @@ const Footer = () => {
               </div>
           </div>
           <div className='flex flex-col gap-6 w-[147.17px]'>
-            <p className='text-base cursor-pointer text-[#013300]' onClick={() => navigate("/about")}>About</p>
-            <p className='text-base cursor-pointer text-[#013300]' onClick={() => navigate("/services")}>Services</p>
-            <p className='text-base cursor-pointer text-[#013300]' onClick={() => navigate("/contact")}>Contact Us</p>
+            <p className='text-base cursor-pointer text-[#013300]' onClick={() => {navigate("/about"); window.scroll(0, 0)}}>About</p>
+            <p className='text-base cursor-pointer text-[#013300]' onClick={() => {navigate("/services"); window.scroll(0, 0)}}>Services</p>
+            <p className='text-base cursor-pointer text-[#013300]' onClick={() => {navigate("/contact"); window.scroll(0, 0)}}>Contact Us</p>
             {/* <p className='text-base text-[#013300]'>Privacy Policy</p>
             <p className='text-base text-[#013300]'>Terms & Conditions</p> */}
           </div>
