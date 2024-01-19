@@ -74,13 +74,13 @@ const Home = () => {
                 </div>
                 <div className='flex mt-[48px] items-center'>
                     <input 
-                        placeholder='Enter zip code'
-                        type='number'
-                        name='zip'
+                        placeholder='Enter email'
+                        type='email'
+                        name='email'
                         className='bg-[#CDDAD4] outline-none rounded-l-lg w-[167px] h-[48px] py-[13px] px-[16px] h-[45px]'
                     />
                     <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[45px] rounded-r-lg justify-center text-[#fff]'>
-                        <RxLightningBolt /> Get estimate
+                        <RxLightningBolt /> Get In Touch
                     </button>
                 </div>
             </div>
@@ -102,7 +102,7 @@ const Home = () => {
                 <img src={TechWatch} alt='tech-watch' className='w-[176px]' />
             </div>
         </div>
-        <div className='w-full bg-[#F7F1D0] h-[1102px] py-[63px] flex flex-col gap-[40px] pl-[62px] pr-[104px]'>
+        <div className='w-full bg-[#F7F1D0] h-[1002px] py-[63px] flex flex-col gap-[40px] pl-[62px] pr-[104px]'>
             <p className='text-[90px] text-[#000] leading-[101px]'>
                 Hassle free restock and 
                 procurement,
@@ -190,7 +190,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={ForkLift} alt='fork-lift' className='w-[518px] h-[537px]'/>
+                    <img src={ForkLift} alt='fork-lift' className='w-[418px] h-[437px]'/>
                 </div>
             </div>
             <div className='flex justify-center gap-[12px] mt-[28px]'>
@@ -219,7 +219,7 @@ const Home = () => {
                         <div>
                             <img src={Girl} alt='girl' className='w-[608px] rounded-tl-lg rounded-bl-lg'/>
                         </div>
-                        <div className='flex flex-col gap-[38px] bg-[#f6f6f6] rounded-tr-lg rounded-br-lg w-[678px] h-[578px] p-[56px] '>
+                        <div className='flex flex-col gap-[38px] bg-[#f6f6f6] rounded-tr-lg rounded-br-lg w-[628px] h-[578px] p-[56px] '>
                             <p className='text-[#1A202C] font-inter text-xl font-medium w-[451px]'>
                                 “Dunfix Solutions provided us with a tailored solution that perfectly matched our industry 
                                 needs. Their commitment to excellence and attention to detail sets them apart.”
@@ -247,7 +247,7 @@ const Home = () => {
                         className='bg-[#fff] outline-none rounded-l-lg w-[167px] h-[48px] py-[13px] px-[16px] h-[45px]'
                     />
                     <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[45px] rounded-r-lg justify-center text-[#fff]'>
-                        <RxLightningBolt /> Get estimate
+                        <RxLightningBolt /> Get In Touch
                     </button>
                 </div>
             </div>

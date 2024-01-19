@@ -18,7 +18,7 @@ const Services = () => {
             </div>
         </div>
         <div className='w-full pt-[129px] px-[141px] pb-[176px]'>
-            <div className='w-[1158px] flex flex-col  gap-[88px]'>
+            <div className='w-[1158px] flex flex-col '>
                 <div className='flex gap-[42px] items-center'>
                     <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
                         <p className='text-[25px] text-[#292F36] font-bold'>Project Plan</p>
@@ -45,7 +45,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-[42px] items-center'>
+                {/* <div className='flex gap-[42px] items-center'>
                     <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
                         <p className='text-[25px] text-[#292F36] font-bold'>2d/3d Art Work</p>
                         <p className='text-[22px] text-[#4D5053] text-center'>There are many variations of the passages of lorem Ipsum from available, majority.</p>
@@ -70,7 +70,7 @@ const Services = () => {
                             <GoArrowRight className='w-[15px] h-[13px] text-[#CDA274]' />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
