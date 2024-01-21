@@ -18,31 +18,33 @@ const Services = () => {
             </div>
         </div>
         <div className='w-full pt-[129px] px-[141px] pb-[176px]'>
-            <div className='w-[1158px] flex flex-col '>
-                <div className='flex gap-[42px] items-center'>
+            {/* <div className='w-[1158px] flex flex-col '> */}
+                <div className='flex justify-between mx-auto'>
                     <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
-                        <p className='text-[25px] text-[#292F36] font-bold'>Project Plan</p>
-                        <p className='text-[22px] text-[#4D5053] text-center'>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                        <div className='flex gap-1 items-center mt-[32px]'>
-                            <p className='font-semibold text-[#4D5053] text-lg'>Read More</p>
-                            <GoArrowRight className='w-[15px] h-[13px] text-[#CDA274]' />
-                        </div>
+                        <p className='text-[25px] text-[#292F36] font-bold'>Procurement and Supply</p>
+                        <ul className='text-[18px] flex flex-col gap-2 mx-2 text-[#4D5053] text-left list-disc'>
+                            <li>Specialization in sourcing and providing construction materials</li>
+                            <li>Expertise in procuring industrial materials and equipment</li>
+                            <li>Supply of technology-related products</li>
+                            <li>Distribution of electrical components</li>
+                        </ul>
                     </div>
                     <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
-                        <p className='text-[25px] text-[#292F36] font-bold'>Interior Work</p>
-                        <p className='text-[22px] text-[#4D5053] text-center'>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                        <div className='flex gap-1 items-center mt-[32px]'>
-                            <p className='font-semibold text-[#4D5053] text-lg'>Read More</p>
-                            <GoArrowRight className='w-[15px] h-[13px] text-[#CDA274]' />
-                        </div>
+                        <p className='text-[25px] text-[#292F36] font-bold'>Invoice Financing</p>
+                        <ul className='text-[18px] flex flex-col gap-2 text-[#4D5053] text-left mx-2 list-disc'>
+                            <li>We facilitate financial support by leveraging invoices </li>
+                            <li>We offer a financing mechanism where unpaid invoices are used as collateral</li>
+                            <li>We will help in managing cash flow by providing funds tied to outstanding invoices</li>
+                        </ul>
                     </div>
                     <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
-                        <p className='text-[25px] text-[#292F36] font-bold'>Retail Design</p>
-                        <p className='text-[22px] text-[#4D5053] text-center'>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                        <div className='flex gap-1 items-center mt-[32px]'>
-                            <p className='font-semibold text-[#4D5053] text-lg'>Read More</p>
-                            <GoArrowRight className='w-[15px] h-[13px] text-[#CDA274]' />
-                        </div>
+                        <p className='text-[25px] text-[#292F36] font-bold'>Customized Procurement Solutions</p>
+                        <ul className='text-[18px] flex flex-col gap-2 mx-2 text-[#4D5053] text-left list-disc'>
+                            <li>Tailored procurement strategies to meet specific client needs</li>
+                            <li>Strategic sourcing services for optimizing costs and quality</li>
+                            <li>Logistic and Warehousing</li>
+                            <li>Vendor Management</li>
+                        </ul>
                     </div>
                 </div>
                 {/* <div className='flex gap-[42px] items-center'>
@@ -72,7 +74,7 @@ const Services = () => {
                     </div>
                 </div> */}
 
-            </div>
+            {/* </div> */}
 
         </div>
 
