@@ -21,7 +21,7 @@ const Header = () => {
         <div className='flex items-center gap-4 w-[320px]'>
             <button className='border w-[145px] border-[#050505] h-[48px] rounded-lg p-2'>+44 7762 293319</button>
             <button className='flex items-center bg-[#109E92] p-2 w-[145px] h-[48px] rounded-lg justify-center text-[#fff]'>
-                <RxLightningBolt className="" /> Get estimate
+                <RxLightningBolt className="" /> Get in touch
             </button>
         </div>
     </div>

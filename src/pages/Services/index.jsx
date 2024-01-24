@@ -12,15 +12,15 @@ const Services = () => {
             style={{ backgroundImage: `url(${AboutBg})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}  
             className='w-full h-[266px] flex flex-col justify-end'
         >
-            <div className='w-[377px] h-[133px] mx-auto rounded-tr-2xl rounded-tl-2xl bg-[#fff] flex flex-col items-center justify-center'>
-                <p className='font-bold text-[#292F36] text-[37px]'>Services</p>
-                <p className='text-base text-[#4D5053]'>Home/Services</p>
+            <div className='w-[200px] h-[95px] lg:w-[377px] lg:h-[133px] mx-auto rounded-tr-2xl rounded-tl-2xl bg-[#fff] flex flex-col items-center justify-center'>
+                <p className='font-bold text-[#292F36] text-[24px] lg:text-[37px]'>Services</p>
+                <p className='text-sm lg:text-base text-[#4D5053]'>Home/Services</p>
             </div>
         </div>
-        <div className='w-full pt-[129px] px-[141px] pb-[176px]'>
+        <div className='w-full pt-[48px] lg:pt-[129px] lg:px-[141px] pb-[176px]'>
             {/* <div className='w-[1158px] flex flex-col '> */}
-                <div className='flex justify-between mx-auto'>
-                    <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
+                <div className='flex flex-col lg:flex-row justify-between mx-auto'>
+                    <div className='w-[313px] mx-auto lg:mx-0 lg:w-[358px] gap-[20px] px-[20px] py-[24px] lg:py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
                         <p className='text-[25px] text-[#292F36] font-bold'>Procurement and Supply</p>
                         <ul className='text-[18px] flex flex-col gap-2 mx-2 text-[#4D5053] text-left list-disc'>
                             <li>Specialization in sourcing and providing construction materials</li>
@@ -29,7 +29,7 @@ const Services = () => {
                             <li>Distribution of electrical components</li>
                         </ul>
                     </div>
-                    <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
+                    <div className='w-[313px] mx-auto lg:mx-0 lg:w-[358px] gap-[20px] px-[20px] py-[24px] lg:py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
                         <p className='text-[25px] text-[#292F36] font-bold'>Invoice Financing</p>
                         <ul className='text-[18px] flex flex-col gap-2 text-[#4D5053] text-left mx-2 list-disc'>
                             <li>We facilitate financial support by leveraging invoices </li>
@@ -37,7 +37,7 @@ const Services = () => {
                             <li>We will help in managing cash flow by providing funds tied to outstanding invoices</li>
                         </ul>
                     </div>
-                    <div className='w-[358px] gap-[20px] px-[20px] py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
+                    <div className='w-[313px] mx-auto lg:mx-0 lg:w-[358px] gap-[20px] px-[20px] py-[24px] lg:py-[83px] flex flex-col items-center hover:bg-[#EDF4F3] hover:rounded-[30px]'>
                         <p className='text-[25px] text-[#292F36] font-bold'>Customized Procurement Solutions</p>
                         <ul className='text-[18px] flex flex-col gap-2 mx-2 text-[#4D5053] text-left list-disc'>
                             <li>Tailored procurement strategies to meet specific client needs</li>
@@ -80,10 +80,10 @@ const Services = () => {
 
         <div
             style={{ backgroundImage: `url(${Estimate})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}
-            className='w-full h-[321px]  py-[56px]' 
+            className='w-full h-[321px] mt-[20px] lg:mt-[80px] py-[40px] px-[15px] lg:px-[0px] lg:py-[56px]' 
         >
             <div className='flex flex-col items-center justify-center '>
-                <p className='text-[#000] text-[64px] font-semibold '>Get Your Procurement Estimate Today</p>
+                <p className='text-[#000] text-[36px] lg:text-[64px] lg:font-semibold '>Get Your Procurement Estimate Today</p>
                 <div className='flex justify-between mt-[48px]'>
                     <input 
                         placeholder='Enter your Email'
@@ -91,8 +91,8 @@ const Services = () => {
                         name='email'
                         className='bg-[#fff] outline-none rounded-l-lg w-[167px] h-[48px] py-[13px] px-[16px] h-[45px]'
                     />
-                    <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[45px] rounded-r-lg justify-center text-[#fff]'>
-                        <RxLightningBolt /> Get estimate
+                    <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[48px] rounded-r-lg justify-center text-[#fff]'>
+                        <RxLightningBolt /> Get In Touch
                     </button>
                 </div>
             </div>

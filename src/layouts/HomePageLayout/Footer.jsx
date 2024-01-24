@@ -20,9 +20,9 @@ const Footer = () => {
   return (
     <div
       style={{ backgroundImage: `url(${FooterBg})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}
-      className='w-full pt-[80px]' 
+      className='w-full pt-[47px] lg:pt-[80px]' 
     >
-      <div className=' w-full py-[31px] mx-[170px] flex gap-[283px]'>
+      <div className=' w-full py-[31px] mx-[16px] lg:mx-[170px] flex flex-col lg:flex-row gap-[31px] lg:gap-[283px]'>
           <div className='flex flex-col gap-[26px] w-[168px]'>
               <img src={Logo} alt='logo' />
               <div className='flex gap-[12px]'>
@@ -53,8 +53,8 @@ const Footer = () => {
             </div>
           </div>
       </div>
-      <div className='flex items-center pt-[64px] pb-[40px] px-[26px] justify-between'>
-        <div className='flex '>
+      <div className='flex flex-col lg:flex-row lg:items-center pt-[31px] lg:pt-[64px] pb-[40px] px-[26px] justify-between'>
+        <div className='hidden lg:flex '>
           <img src={Seia} alt='Seia' />
           <img src={Business} alt='Business' />
         </div>

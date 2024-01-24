@@ -52,7 +52,7 @@ const Home = () => {
     <>
         <div
             style={{ backgroundImage: `url(${HomeBg})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}  
-            className='w-full h-[600px]' 
+            className='w-full h-[450px] lg:h-[600px]' 
         >
             <div 
                 style={{
@@ -62,17 +62,18 @@ const Home = () => {
                     left: 0,
                     bottom: 0,
                     right: 0,
+                    height: "inherit"
                 }}
-                className='flex flex-col px-[65px] py-[90px]'
+                className='flex flex-col px-[14px] py-[45px]  lg:px-[65px] lg:py-[90px]'
             >
-                <div className='w-[1053px]  flex flex-col gap-[23px]'>
-                    <p className='font-medium font-inter text-[70px] text-[#34364D]'>Your trusted partner in procurement and distribution</p>
-                    <p className='font-inter text-[24px] font-medium text-[#4A4A4A]'>
+                <div className='w-full lg:w-[1053px]  flex flex-col gap-[23px]'>
+                    <p className='font-medium font-inter text-[32px] lg:text-[70px] text-[#34364D]'>Your trusted partner in procurement and distribution</p>
+                    <p className='font-inter text-base lg:text-[24px] font-medium text-[#4A4A4A]'>
                         Explore our diverse range of high-quality materials and cutting-edge technology <br /> solutions, 
                         tailored to meet the unique needs of the construction, industrial, and technological sectors.
                     </p>
                 </div>
-                <div className='flex mt-[48px] items-center'>
+                <div className='flex mt-[20px] lg:mt-[48px] items-center'>
                     <input 
                         placeholder='Enter email'
                         type='email'
@@ -85,32 +86,35 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='w-[1200px] flex mx-auto py-[56px]'>
-            <div className='w-[240px] px-[32px]'>
+        <div className='w-full lg:w-[1200px] grid grid-cols-2 gap-4 lg:gap-0 lg:flex mx-auto py-[56px]'>
+            <div className='lg:w-[240px] px-[32px]'>
                 <img src={TechCrunch} alt='tech-crunch' className='w-[176px]' />
             </div>
-            <div className='w-[240px] px-[32px]'>
+            <div className='lg:w-[240px] px-[32px]'>
                 <img src={Canary} alt='canary' className='w-[176px]' />
             </div>
-            <div className='w-[240px] px-[32px]'>
+            <div className='lg:w-[240px] px-[32px]'>
                 <img src={Business} alt='business' className='w-[176px]' />
             </div>
-            <div className='w-[240px] px-[32px]'>
+            <div className='lg:w-[240px] px-[32px]'>
                 <img src={Axios} alt='axios' className='w-[176px]' />
             </div>
-            <div className='w-[240px] px-[32px]'>
+            <div className='lg:w-[240px] px-[32px]'>
                 <img src={TechWatch} alt='tech-watch' className='w-[176px]' />
             </div>
         </div>
-        <div className='w-full bg-[#F7F1D0] h-[1002px] py-[63px] flex flex-col gap-[40px] pl-[62px] pr-[104px]'>
-            <p className='text-[90px] text-[#000] leading-[101px]'>
+        <div className='w-full bg-[#F7F1D0] lg:h-[1002px] py-[63px] flex flex-col gap-[40px] pl-[13px] pr-[17px] lg:pl-[62px] lg:pr-[104px]'>
+            <p className='text-[32px] leading-[40px] lg:text-[90px] text-[#000] lg:leading-[101px]'>
                 Hassle free restock and 
                 procurement,
             </p>
             <hr />
+            <div className='lg:hidden flex'>
+                <img src={ForkLift} alt='fork-lift' className='w-full px-[0px] h-[437px]'/>
+            </div>
             <div className='flex justify-between'>
                 <div className='flex flex-col'>
-                    <div className='flex flex-col border-t border-solid border-[#050505] pt-[26px] w-[610px]'>
+                    <div className='flex flex-col border-t border-solid border-[#050505] pt-[26px] lg:w-[610px]'>
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center gap-4'>
                                 <div><MdOfflineBolt className='w-[40px] h-[40px]' /></div>
@@ -119,15 +123,15 @@ const Home = () => {
                             <div onClick={() => handleProcument()} className='cursor-pointer'>
                                 {
                                     showProcurementDropDown ?
-                                    <HiOutlineMinusSm className='w-[12px] h-[12px]' />
+                                    <HiOutlineMinusSm className='w-[24px] h-[24px]' />
                                     :
-                                    <HiOutlinePlusSm className='w-[12px] h-[12px]' />
+                                    <HiOutlinePlusSm className='w-[24px] h-[24px]' />
                                 }
                             </div>
                         </div>
                         {
                             showProcurementDropDown && 
-                            <p className='text-base text-[#000] w-[537px] leading-[24px]'>
+                            <p className='text-base text-[#000] lg:w-[537px] lg:leading-[24px]'>
                                 Experience a seamless procurement journey with Dunfix Solutions. 
                                 Our platform is designed to simplify the procurement process, 
                                 providing you with a user-friendly interface and efficient tools. 
@@ -136,7 +140,7 @@ const Home = () => {
                             </p>
                         }
                     </div>
-                    <div className='flex flex-col border-t mt-[55px] border-solid border-[#050505] pt-[26px] w-[610px]'>
+                    <div className='flex flex-col border-t mt-[55px] border-solid border-[#050505] pt-[26px] lg:w-[610px]'>
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center gap-4'>
                                 <div><AiOutlineDollar className='w-[40px] h-[40px]' /></div>
@@ -145,15 +149,15 @@ const Home = () => {
                             <div className='cursor-pointer'>
                                 {
                                     showIndustry ?
-                                    <HiOutlineMinusSm className='w-[12px] h-[12px]' />
+                                    <HiOutlineMinusSm className='w-[24px] h-[24px]' />
                                     :
-                                    <HiOutlinePlusSm className='w-[12px] h-[12px]' />
+                                    <HiOutlinePlusSm className='w-[24px] h-[24px]' />
                                 }
                             </div>
                         </div>
                         {
                             showIndustry && 
-                            <p className='text-base text-[#000] w-[537px] leading-[24px]'>
+                            <p className='text-base text-[#000] lg:w-[537px] leading-[24px]'>
                                 Experience a seamless procurement journey with Dunfix Solutions. 
                                 Our platform is designed to simplify the procurement process, 
                                 providing you with a user-friendly interface and efficient tools. 
@@ -162,7 +166,7 @@ const Home = () => {
                             </p>
                         }
                     </div>
-                    <div className='flex flex-col border-t mt-[55px] border-solid border-[#050505] pt-[26px] w-[610px]'>
+                    <div className='flex flex-col border-t mt-[55px] border-solid border-[#050505] pt-[26px] lg:w-[610px]'>
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center gap-4'>
                                 <img src={HomeIcon} alt='home-icon' className='w-[40px] h-[40px]' />
@@ -171,15 +175,15 @@ const Home = () => {
                             <div className='cursor-pointer'>
                                 {
                                     showBusiness?
-                                    <HiOutlineMinusSm className='w-[12px] h-[12px]' />
+                                    <HiOutlineMinusSm className='w-[24px] h-[24px]' />
                                     :
-                                    <HiOutlinePlusSm className='w-[12px] h-[12px]' />
+                                    <HiOutlinePlusSm className='w-[24px] h-[24px]' />
                                 }
                             </div>
                         </div>
                         {
                             showBusiness && 
-                            <p className='text-base text-[#000] w-[537px] leading-[24px]'>
+                            <p className='text-base text-[#000] lg:w-[537px] leading-[24px]'>
                                 Experience a seamless procurement journey with Dunfix Solutions. 
                                 Our platform is designed to simplify the procurement process, 
                                 providing you with a user-friendly interface and efficient tools. 
@@ -189,7 +193,7 @@ const Home = () => {
                         }
                     </div>
                 </div>
-                <div>
+                <div className='hidden lg:flex'>
                     <img src={ForkLift} alt='fork-lift' className='w-[418px] h-[437px]'/>
                 </div>
             </div>
@@ -208,19 +212,19 @@ const Home = () => {
                 </button>
             </div>
         </div>
-        <div className='bg-[#fff] pt-[132px] pl-[77px] flex flex-col'>
-            <div className='border-b-[#E3DCD3] w-[1216px] pb-[49px] pr-[189px] leading-[101px] border border-t-0 border-x-0 border-solid'>
-               <p className='text-[80px]'>See how Dunfix empowers diverse industries</p>
+        <div className='bg-[#fff] w-full pt-[132px] pl-[26px] pr-[14px] lg:pr-[0px] lg:pl-[77px] flex flex-col'>
+            <div className='border-b-[#E3DCD3] w-full lg:w-[1216px] pb-[49px] lg:pr-[189px] lg:leading-[101px] border border-t-0 border-x-0 border-solid'>
+               <p className='text-[32px] lg:text-[80px]'>See how Dunfix empowers diverse industries</p>
             </div>
             
             <div style={{ width: "100%"}} className='mt-[80px]'>
                 {/* <Slider {...settings}> */}
-                    <div className='w-[1286px] flex'>
+                    <div className=' h-[370px] p-[30px] lg:p-[0px] lg:w-[1286px] lg:h-full flex flex-col lg:flex-row bg-[#f6f6f6]'>
                         <div>
-                            <img src={Girl} alt='girl' className='w-[608px] rounded-tl-lg rounded-bl-lg'/>
+                            <img src={Girl} alt='girl' className='w-[80px] h-[80px] rounded-full lg:rounded-none lg:w-[608px] lg:h-[578px] lg:rounded-tl-lg lg:rounded-bl-lg'/>
                         </div>
-                        <div className='flex flex-col gap-[38px] bg-[#f6f6f6] rounded-tr-lg rounded-br-lg w-[628px] h-[578px] p-[56px] '>
-                            <p className='text-[#1A202C] font-inter text-xl font-medium w-[451px]'>
+                        <div className='flex flex-col gap-[18px] lg:gap-[38px] mt-[21px] lg:mt-[0px] lg:rounded-tr-lg lg:rounded-br-lg w-[300px] lg:w-[628px] h-[578px]  lg:p-[56px] '>
+                            <p className='text-[#1A202C] font-inter text-sm lg:text-xl font-medium w-[228px] lg:w-[451px]'>
                                 “Dunfix Solutions provided us with a tailored solution that perfectly matched our industry 
                                 needs. Their commitment to excellence and attention to detail sets them apart.”
                             </p>
@@ -235,10 +239,10 @@ const Home = () => {
         </div>
         <div
             style={{ backgroundImage: `url(${Estimate})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}
-            className='w-full h-[321px] mt-[80px] py-[56px]' 
+            className='w-full h-[321px] mt-[80px] py-[40px] px-[15px] lg:px-[0px] lg:py-[56px]' 
         >
             <div className='flex flex-col items-center justify-center '>
-                <p className='text-[#000] text-[64px] font-semibold '>Get Your Procurement Estimate Today</p>
+                <p className='text-[#000] text-[36px] lg:text-[64px] lg:font-semibold '>Get Your Procurement Estimate Today</p>
                 <div className='flex justify-between mt-[48px]'>
                     <input 
                         placeholder='Enter your Email'
@@ -246,7 +250,7 @@ const Home = () => {
                         name='email'
                         className='bg-[#fff] outline-none rounded-l-lg w-[167px] h-[48px] py-[13px] px-[16px] h-[45px]'
                     />
-                    <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[45px] rounded-r-lg justify-center text-[#fff]'>
+                    <button className='flex items-center bg-[#109E92] py-[13px] px-[16px] w-[145px] h-[48px] rounded-r-lg justify-center text-[#fff]'>
                         <RxLightningBolt /> Get In Touch
                     </button>
                 </div>
