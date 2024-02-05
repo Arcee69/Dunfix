@@ -2,8 +2,8 @@ import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { RxLightningBolt } from "react-icons/rx";
 
-
-import Logo from "../../assets/svg/logo.svg"
+import Logo from  "../../assets/img/logo.svg"  
+// import Logo from "../../assets/svg/logo.svg"
 
 const Header = () => {
 

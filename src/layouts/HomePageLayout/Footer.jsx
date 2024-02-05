@@ -3,7 +3,7 @@ import { MdPhone } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 
 import FooterBg from "../../assets/img/footer.png"
-import Logo from "../../assets/svg/logo_footer.svg"
+import Logo from  "../../assets/img/logo.svg"                 //"../../assets/svg/logo_footer.svg"
 import Facebook from "../../assets/svg/facebook.svg"
 import Instagram from "../../assets/svg/instagram.svg"
 import Twitter from "../../assets/svg/twitter.svg"
@@ -40,10 +40,10 @@ const Footer = () => {
             {/* <p className='text-base text-[#013300]'>Privacy Policy</p>
             <p className='text-base text-[#013300]'>Terms & Conditions</p> */}
           </div>
-          <div className='w-[209px] flex flex-col gap-6'>
+          <div className='w-[309px] flex flex-col gap-6'>
             {/* <p className='text-base text-[#013300]'>Become a partner</p>
             <p className='text-base text-[#013300]'>Referals</p> */}
-            <p className='text-base text-[#013300]'>Dunfixenterprises@gmail.com</p>
+            <p className='text-base text-[#013300]'>Dunfixlimited@gmail.com</p>
             <div className='flex items-center gap-1'>
               <MdPhone />
               <div className='flex flex-col'>
@@ -51,6 +51,7 @@ const Footer = () => {
               <p className='text-base text-[#013300]'>+2348063351368</p>
               </div>
             </div>
+            <p className='text-sm text-[#013300]'>15462800 - Incorporated on 2 February 2024</p>
           </div>
       </div>
       <div className='flex flex-col lg:flex-row lg:items-center pt-[31px] lg:pt-[64px] pb-[40px] px-[26px] justify-between'>

@@ -28,7 +28,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='w-full lg:w-[1196px] lg:shadow-xl mx-auto lg:h-[667px] gap-[55px] mb-[40px] lg:rounded-[14px] flex flex-col lg:flex-row p-[10px] mt-[51px] lg:mt-[149px]'>
-          <div className=' lg:w-[491px] lg:h-[647px] flex flex-col gap-[40px] lg:gap-[100px] bg-[#109E92] rounded-tr-md rounded-tl-md rounded-bl-md pl-[30px] lg:pl-[40px] pt-[40px] pb-[36px]'>
+          <div className=' lg:w-[491px] lg:h-[647px] flex flex-col gap-[40px] lg:gap-[85px] bg-[#109E92] rounded-tr-md rounded-tl-md rounded-bl-md pl-[30px] lg:pl-[40px] pt-[40px] pb-[36px]'>
             <div className='flex flex-col gap-[14px]'>
               <p className='text-[#fff] font-inter text-[28px]'>Contact Information</p>
               <p className='text-[#fff] font-inter text-[18px] font-medium'>Say something to start a live chat!</p>
@@ -44,13 +44,16 @@ const Contact = () => {
               </div>
               <div className='flex items-center gap-[9px] lg:gap-[25px]'>
                 <MdEmail className='text-[#fff] w-[24px] h-[24px]' />
-                <p className='text-[#fff] font-inter text-base'>Dunfixenterprises@gmail.com</p>
+                <div className='flex flex-col'>
+                  <p className='text-[#fff] font-inter text-base'>info@dunfixlimited.com</p>
+                  <p className='text-[#fff] font-inter text-base'>sales@dunfixlimited.com</p>
+                </div>
               </div>
               <div className='flex lg:items-center gap-[9px] lg:gap-[25px]'>
                 <MdLocationPin className='text-[#fff] w-[24px] h-[24px]' />
                 <div className='flex flex-col gap-1.5'>
                   <p className='text-[#fff] font-inter text-base w-[288px]'>20 St. Mary Street, Ogo-Oluwa b/stop, Ishashi, Lagos State</p>
-                  <p className='text-[#fff] font-inter text-base w-[288px]'>2 Crossby Court, Sunderland, SR2 8BX</p>
+                  <p className='text-[#fff] font-inter text-base w-[288px]'> 49 Hylton Road, Sunderland, England, SR4 7AF</p>
                 </div>
               </div>
             </div>
@@ -60,7 +63,7 @@ const Contact = () => {
                   <img src={Instagram} alt='instagram' />
                   <img src={Discord} alt='discord' />
                 </div>
-              <img src={Big} alt='' className='w-40 h-40 left-[64.5%] -bottom-[30%] absolute hidden lg:flex' />
+              <img src={Big} alt='' className='w-40 h-40 left-[64.5%] -bottom-[50%] absolute hidden lg:flex' />
             </div>
           </div>
           <div className='lg:w-[600px] mt-[50px]'>
