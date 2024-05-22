@@ -54,13 +54,13 @@ const Footer = () => {
             <p className='text-sm text-[#013300]'>15462800 - Incorporated on 2 February 2024</p>
           </div>
       </div>
-      <div className='flex flex-col lg:flex-row lg:items-center pt-[31px] lg:pt-[64px] pb-[40px] px-[26px] justify-between'>
-        <div className='hidden lg:flex '>
+      <div className='flex flex-col lg:flex-row lg:items-center justify-center pt-[31px] lg:pt-[64px] pb-[40px] px-[26px] '>
+        {/* <div className='hidden lg:flex '>
           <img src={Seia} alt='Seia' />
           <img src={Business} alt='Business' />
-        </div>
+        </div> */}
         <p className='text-sm text-[#109E92]'>© 2023 Dunfix Energy</p>
-        <p className='text-base text-[#109E92]'>CSLB license number # 1104018</p>
+        {/* <p className='text-base text-[#109E92]'>CSLB license number # 1104018</p> */}
       </div>
     </div>
   )
