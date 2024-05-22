@@ -2,6 +2,7 @@ import React from 'react'
 import { MdPhone } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 
+
 import FooterBg from "../../assets/img/footer.png"
 import Logo from  "../../assets/img/logo.svg"                 //"../../assets/svg/logo_footer.svg"
 import Facebook from "../../assets/svg/facebook.svg"
@@ -43,7 +44,7 @@ const Footer = () => {
           <div className='w-[309px] flex flex-col gap-6'>
             {/* <p className='text-base text-[#013300]'>Become a partner</p>
             <p className='text-base text-[#013300]'>Referals</p> */}
-            <p className='text-base text-[#013300]'>Dunfixlimited@gmail.com</p>
+            <p className='text-base text-[#013300]'>info@dunfixlimited.com</p>
             <div className='flex items-center gap-1'>
               <MdPhone />
               <div className='flex flex-col'>
@@ -59,7 +60,8 @@ const Footer = () => {
           <img src={Seia} alt='Seia' />
           <img src={Business} alt='Business' />
         </div> */}
-        <p className='text-sm text-[#109E92]'>© 2023 Dunfix Energy</p>
+         <img src={Logo} alt='logo' className='w-[179px] h-[50px] cursor-pointer' />
+        {/* <p className='text-sm text-[#109E92]'>© 2023 Dunfix Energy</p> */}
         {/* <p className='text-base text-[#109E92]'>CSLB license number # 1104018</p> */}
       </div>
     </div>
